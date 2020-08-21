@@ -1,0 +1,21 @@
+{
+  "name": "xkcd-reader",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "keywords": [
+    "xkcd",
+    "nodejs",
+    "javascript"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
