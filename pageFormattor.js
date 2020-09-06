@@ -3,7 +3,8 @@
 const xkcdFunction = require("./function");
 
 function isValidId(path) {
-  const validId = /\/\d+\/?$/;
+  const validId = /\/\d+\/?$/; 
+  // matches the charactera digit (equal to [0-9]), Matches between one and unlimited times, Matches between zero and one times
   return path === "/" || validId.test(path);
 }
 
